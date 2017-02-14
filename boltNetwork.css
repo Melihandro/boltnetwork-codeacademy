@@ -1,0 +1,169 @@
+html, body {
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 970px;
+}
+
+/*Jumbotron*/
+
+.jumbotron {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.jumbotron img {
+	width: 180px;
+	height: 30px;
+}
+
+.jumbotron ul {
+	list-style: none;
+	
+}
+
+.jumbotron li {
+	display: inline-block;
+	margin-right: 30px; 
+}
+
+
+/*main*/
+
+.main {
+	text-align:center;
+	color:#FFFFFF;
+	margin: 0;
+	padding: 0;
+}
+
+.main h1 {
+	padding: 60px 0 35px;
+	font-weight: 300;
+}
+
+.main .form-inline {
+	margin-top: 60px;
+	padding-bottom: 100px;
+	
+}
+
+.form-group {
+	border: none;
+	
+
+}
+
+.main .form-control {
+	background-color: transparent;
+	border:none;
+	border-radius: 0;
+	border-bottom: 1px solid #FFFFFF;
+	width: 400px;
+	margin-right:10px;
+	box-shadow: none;
+
+	
+}
+
+.main .form-control:hover, .main .form-control:visited  {
+		border-bottom: 1px solid #0393FF;
+		box-shadow: none;
+}
+
+
+/* SUPPORTING */
+
+.supporting {
+  background-image: url("https://	s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png");
+  background-size: 141px 142px;
+  margin-top: -30px;
+  text-align:center;
+}
+
+.supporting .container {
+	padding-bottom: 70px;
+}
+
+.supporting h2 {
+	color: #0393FF;
+	font-weight:100;
+	padding-top:70px;
+	
+}
+
+.supporting p {
+	color:#FFFFFF;
+	margin-bottom: 50px;
+}
+
+.supporting .thumbnail {
+	padding: 0;
+	border: none;
+}
+
+
+/* Feature */
+
+.feature {
+	background: url("https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg") no-repeat center center;
+	background-size: cover;
+	color: #FFFFFF;
+	height: 370px;
+}
+
+.feature h2 {
+	color:#0393FF;
+	letter-spacing:1.5px;
+	
+}
+
+.feature p {
+	font-size: 1.3em;
+}
+
+.feature h2, .feature p {
+	position: relative;
+	text-align: center;
+	top:130px;
+	font-weight:200;	
+}
+
+
+/* footer*/
+
+.footer {
+	color: #0393FF;
+	background-color: #000000;
+}
+
+.footer ul {
+	list-style: none;
+	padding: 70px 0px;
+}
+
+.footer li:first-of-type {
+	color:#FFFFFF;
+	margin-bottom: 15px;
+	font-size:1.3em;
+}
+
+
+.btn {
+	color: #0393FF;
+	background-color:#000000;
+	border: 1px solid #0393FF;
+	border-radius:3px;
+	padding: 8px 15px;
+	font-size: 1em;
+	font-weight:100;
+}
+
+.btn:hover {
+	background-color: #0393FF;
+	border: 1px solid #0393FF;
+	color: #FFFFFF;
+}
